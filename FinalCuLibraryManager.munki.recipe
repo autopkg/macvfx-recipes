@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest version of FinalCuLibraryManager and imports it into a Munki repo.</string>
+    <string>Downloads latest version of FinalCutLibraryManager and imports it into a Munki repo.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.FinalCuLibraryManager</string>
+    <string>com.github.autopkg.munki.FinalCutLibraryManager</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>FinalCuLibraryManager</string>
+        <string>FinalCutLibraryManager</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
         <key>pkginfo</key>
@@ -21,7 +21,7 @@
             <key>description</key>
             <string>http://www.arcticwhiteness.com/finalcutlibrarymanager/download/appcast.xml</string>
             <key>display_name</key>
-            <string>FinalCuLibraryManager</string>
+            <string>FinalCutLibraryManager</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.FinalCuLibraryManager</string>
+    <string>com.github.autopkg.download.FinalCutLibraryManager</string>
     <key>Process</key>
     <array>
         <dict>

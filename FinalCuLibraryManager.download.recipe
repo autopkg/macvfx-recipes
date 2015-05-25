@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of FinalCuLibraryManager.</string>
+    <string>Downloads the current release version of FinalCutLibraryManager.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.FinalCuLibraryManager</string>
+    <string>com.github.autopkg.download.FinalCutLibraryManager</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>FinalCuLibraryManager</string>
+        <string>FinalCutLibraryManager</string>
         <key>SPARKLE_FEED_URL</key>
         <string>http://www.arcticwhiteness.com/finalcutlibrarymanager/download/appcast.xml</string>
 	</dict>
