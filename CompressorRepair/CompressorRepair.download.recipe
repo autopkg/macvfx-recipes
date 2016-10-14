@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>CompressorRepair</string>
 		<key>SPARKLE_FEED_URL</key>
-		<string>http://www.digitalrebellion.com/rss/appcasts/compressor_repair_appcast.xml</string>
+		<string>https://www.digitalrebellion.com/rss/appcasts/compressor_repair.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
