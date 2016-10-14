@@ -19,7 +19,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>http://www.arcticwhiteness.com/finalcutlibrarymanager/download/appcast.xml</string>
+			<string>Final Cut Library Manager displays all of the Final Cut Pro X libraries that it finds on your Spotlight-indexed drives.</string>
 			<key>display_name</key>
 			<string>FinalCutLibraryManager</string>
 			<key>name</key>
