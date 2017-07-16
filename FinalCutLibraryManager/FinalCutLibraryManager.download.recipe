@@ -11,7 +11,7 @@
 		<key>NAME</key>
 		<string>FinalCutLibraryManager</string>
 		<key>SPARKLE_FEED_URL</key>
-		<string>http://www.arcticwhiteness.com/finalcutlibrarymanager/download/appcast.xml</string>
+		<string>https://www.arcticwhiteness.com/finalcutlibrarymanager/download/appcast.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
