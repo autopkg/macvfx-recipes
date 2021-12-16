@@ -5,27 +5,41 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Postlab and imports it into Munki.</string>
+	<string>Downloads the latest version of Lucid and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>org.macvfx.munki.Postlab</string>
+	<string>org.macvfx.munki.Lucid</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Postlab</string>
+		<string>Lucid</string>
 		<key>pkginfo</key>
 		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Lucid.app</string>
+				<string>Lucid Helper.app</string>
+				<string>ProxyResolver Helper.app</string>
+				<string>ProxyResolver.app</string>
+				<string>Lucid Helper (GPU).app</string>
+				<string>ProxyResolver Helper (Renderer).app</string>
+				<string>Lucid Helper (Plugin).app</string>
+				<string>uninstall_macfuse.app</string>
+				<string>Lucid Helper (Renderer).app</string>
+				<string>ProxyResolver Helper (GPU).app</string>
+				<string>ProxyResolver Helper (Plugin).app</string>
+			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Match-3 game with relaxing sound effects.</string>
 			<key>developer</key>
-			<string>The Sync Factory</string>
+			<string>LucidLink Corp.</string>
 			<key>display_name</key>
-			<string>Postlab</string>
+			<string>Lucid</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +49,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>org.macvfx.download.Postlab</string>
+	<string>org.macvfx.download.Lucid</string>
 	<key>Process</key>
 	<array>
 		<dict>

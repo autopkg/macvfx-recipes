@@ -5,13 +5,13 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Postlab.</string>
+	<string>Downloads the latest version of Lucid.</string>
 	<key>Identifier</key>
-	<string>org.macvfx.download.Postlab</string>
+	<string>org.macvfx..download.Lucid</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Postlab</string>
+		<string>Lucid</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -20,17 +20,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>appcast_url</key>
-				<string>https://sparkle.postlab.cloud/postlab/macos/appcast/postlab-prod.xml</string>
-			</dict>
-			<key>Processor</key>
-			<string>SparkleUpdateInfoProvider</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>filename</key>
-				<string>%NAME%-%version%.dmg</string>
+				<string>%NAME%.pkg</string>
+				<key>url</key>
+				<string>https://d3il9duqikhdqy.cloudfront.net/latest/osx/lucid-1.28.3392.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -42,10 +35,14 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>expected_authority_names</key>
+				<array>
+					<string>Developer ID Installer: LucidLink Corp. (Y4KMJPU2B4)</string>
+					<string>Developer ID Certification Authority</string>
+					<string>Apple Root CA</string>
+				</array>
 				<key>input_path</key>
-				<string>%pathname%/Postlab.app</string>
-				<key>requirement</key>
-				<string>anchor apple generic and identifier "nl.syncfactory.Postlab.Mac" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = A43D9X8EYU)</string>
+				<string>%pathname%</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
