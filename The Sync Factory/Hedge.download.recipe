@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Hedge.</string>
+	<string>Downloads old version of Hedge.</string>
 	<key>Identifier</key>
 	<string>com.macvfx.download.Hedge</string>
 	<key>Input</key>
