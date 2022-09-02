@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Lucid.</string>
 	<key>Identifier</key>
-	<string>org.macvfx..download.Lucid</string>
+	<string>org.macvfx.download.Lucid</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.pkg</string>
 				<key>url</key>
-				<string>https://d3il9duqikhdqy.cloudfront.net/latest/osx/lucid-1.28.3392.pkg</string>
+				<string>https://www.lucidlink.com/download/latest/osx/stable/</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
