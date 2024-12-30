@@ -21,7 +21,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>appcast_url</key>
-				<string>https://sparkle.postlab.cloud/postlab/macos/appcast/postlab-prod.xml</string>
+				<string>https://updates.hedge.video/postlab/macos/appcast/postlab-prod.xml</string>
 			</dict>
 			<key>Processor</key>
 			<string>SparkleUpdateInfoProvider</string>
@@ -44,7 +44,13 @@
 			<dict>
 				<key>input_path</key>
 				<string>%pathname%/Postlab Installer.pkg</string>
-				</dict>
+				<key>expected_authority_names</key>
+				<array>
+					<string>Developer ID Installer: The Sync Factory (A43D9X8EYU)</string>
+					<string>Developer ID Certification Authority</string>
+					<string>Apple Root CA</string>
+				</array>
+			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
 		</dict>
